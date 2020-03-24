@@ -33,10 +33,6 @@ p {
   margin-top: 0;
 }
 
-span.extra {
-  color: rgba(255, 255, 255, 0.6);
-}
-
 ul {
   margin-bottom: 0;
 }
@@ -185,17 +181,6 @@ ul li:last-child {
 
 .company .location {
   color: #97aac3;
-}
-
-.project {
-  margin-bottom: 15px;
-}
-
-.project .name {
-  font-size: 16px;
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 5px;
 }
 
 @media (max-width: 768px) {
