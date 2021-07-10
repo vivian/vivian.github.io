@@ -108,9 +108,18 @@ ul li:last-child {
   margin-bottom: 15px;
 }
 
-.main {
+.primary {
   background: #ffffff;
-  padding: 60px 300px 60px 60px;
+  width: 720px;
+}
+
+.banner {
+  background-image: url('../banner.jpg');
+  height: 200px;
+}
+
+main {
+  padding: 60px 60px 60px 60px;
 }
 
 .title {
@@ -193,11 +202,11 @@ ul li:last-child {
     width: inherit;
   }
 
-  .main {
+  main {
     padding: 30px;
   }
 
-  .main .time {
+  main .time {
     position: static;
     display: block;
     margin-top: 5px;
