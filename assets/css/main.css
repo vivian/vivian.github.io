@@ -150,10 +150,18 @@ ul li:last-child {
   margin-bottom: 30px;
 }
 
+.meta {
+  margin-bottom: 10px;
+}
+
 .meta:first-child {
   margin-bottom: 2px;
   overflow: hidden;
   position: relative;
+}
+
+.meta .alias {
+  color: #97aac3;
 }
 
 .role {
@@ -171,11 +179,7 @@ ul li:last-child {
   top: 0;
 }
 
-.company {
-  margin-bottom: 10px;
-}
-
-.company .name {
+.alias,.company .name {
   color: #605975;
 }
 
