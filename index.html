@@ -13,9 +13,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="me" href="https://github.com/zeylahellyer" type="text/html">
     <link rel="me" href="mailto:zeyla@hellyer.dev">
-    <link rel="stylesheet" href="assets/css/vendor/fontawesome/fontawesome.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/fontawesome/brands.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/fontawesome/solid.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
@@ -33,16 +30,16 @@
         <div class="topic">
           <ul class="list-unstyled contact-list">
             <li class="email">
-              <i class="fas fa-envelope"></i> <a href="mailto:zeyla@hellyer.dev">zeyla@hellyer.dev</a>
+              <i class="fas fa-envelope topic-icon"></i> <a href="mailto:zeyla@hellyer.dev" rel='me'>zeyla@hellyer.dev</a>
             </li>
             <li class="website">
-              <i class="fas fa-globe"></i> <a href="#">zeyla.hellyer.dev</a>
+              <i class="fas fa-globe topic-icon"></i> <a href="#" rel='me'>zeyla.hellyer.dev</a>
             </li>
             <li class="linkedin">
-              <i class="fab fa-linkedin-in"></i> <a href="https://linkedin.com/in/zeyla-hellyer" target="_blank">zeyla-hellyer</a>
+              <i class="fab fa-linkedin-in topic-icon"></i> <a href="https://linkedin.com/in/zeyla-hellyer" rel='me' target="_blank">zeyla-hellyer</a>
             </li>
             <li class="github">
-              <i class="fab fa-github"></i> <a href="https://github.com/zeylahellyer" target="_blank">zeylahellyer</a>
+              <i class="fab fa-github topic-icon"></i> <a href="https://github.com/zeylahellyer" rel='me' target="_blank">zeylahellyer</a>
             </li>
           </ul>
         </div>
@@ -50,36 +47,41 @@
           <h2 class="name">
             Hobbies
           </h2>
-          <ul class="list-unstyled interests-list">
-            <li>
+          <ul class="list-unstyled interests-list" role='list'>
+            <li role='listitem'>
               Hiking
             </li>
-            <li>
+            <li role='listitem'>
               Photography
             </li>
-            <li>
+            <li role='listitem'>
               Linguistics
             </li>
-            <li>
+            <li role='listitem'>
               Aquariums
             </li>
           </ul>
         </div>
       </div>
       <div class='primary'>
-        <section class="banner"></section>
-        <main>
-          <section class="section summary-section">
+        <section class="banner" role='img' aria-label='Banner of nature scenery'></section>
+        <main role="main">
+          <section class="section summary-section" role="banner">
             <h2 class="title">
               <span class="icon-holder">
                 <i class="fas fa-user"></i>
               </span>
-              About Me
+              <span class="label" role='heading' aria-level='1'>About Me</span>
             </h2>
             <div class="summary">
               <p>
-                Backend / full-stack software engineer. Talk to me about hiking
-                and exploring the outdoors.
+                I'm a backend/full-stack software engineer who likes working on
+                projects that I feel can make a change. I have years of history
+                of working on projects that I feel contribute good to the world,
+                such as a healthcare survey platform and designing a platform
+                for data collection from a global fleet of sensors for food and
+                health safety. Day-to-day I tend to use a variety of tools but
+                primarily work with Rust, React, TypeScript, and AWS.
               </p>
             </div>
           </section>
@@ -88,7 +90,7 @@
               <span class="icon-holder">
                 <i class="fas fa-briefcase"></i>
               </span>
-              History
+              <span class="label">History</span>
             </h2>
             <div class="job">
               <div class="meta">
@@ -96,23 +98,23 @@
                   <h3 class="role">
                     Software Engineer
                   </h3>
-                  <div class="time">
+                  <div class="screen-large time">
                     September 2019 - Present
                   </div>
                 </div>
                 <div class="company">
                   <span class="name">Ozone Solutions</span>, <span class="location">Remote</span>
                 </div>
-                <div class="alias">
-                  Merged from <span class="name">Ozark Technologies</span>
+                <div class="screen-small time">
+                  September 2019 - Present
                 </div>
               </div>
               <div class="details">
                 <p>
-                  Lead development of updating codebases to modern frameworks such
-                  as React. Designed architecture to remotely monitor a global
-                  fleet of embedded devices specializing in real-time sensor data
-                  collection.
+                  Lead development of updating codebases to modern frameworks
+                  such as React. Designed architecture to remotely monitor a
+                  global fleet of embedded devices specializing in real-time
+                  sensor data collection.
                 </p>
               </div>
             </div>
@@ -122,12 +124,15 @@
                   <h3 class="role">
                     Software Engineer
                   </h3>
-                  <div class="time">
+                  <div class="screen-large time">
                     September 2018 - September 2019
                   </div>
                 </div>
                 <div class="company">
                   <span class="name">TriStrata Group</span>, <span class="location">Seattle, WA</span>
+                </div>
+                <div class="screen-small time">
+                  September 2018 - September 2019
                 </div>
               </div>
               <div class="details">
@@ -146,12 +151,15 @@
                   <h3 class="role">
                     Freelance
                   </h3>
-                  <div class="time">
+                  <div class="screen-large time">
                     October 2016 - September 2018
                   </div>
-                  <div class="company">
-                    <span class="location">Remote</span>
-                  </div>
+                </div>
+                <div class="company">
+                  <span class="location">Remote</span>
+                </div>
+                <div class="screen-small time">
+                  October 2016 - September 2018
                 </div>
               </div>
               <div class="details">
@@ -167,12 +175,15 @@
                   <h3 class="role">
                     Software Engineer & Sysadmin
                   </h3>
-                  <div class="time">
+                  <div class="screen-large time">
                     January 2015 - December 2015
                   </div>
                 </div>
                 <div class="company">
                   <span class="name">blu sky</span>, <span class="location">Bellingham, WA</span>
+                </div>
+                <div class="screen-small time">
+                  January 2015 - December 2015
                 </div>
               </div>
               <div class="details">
@@ -192,19 +203,81 @@
                   <h3 class="role">
                     Website Developer
                   </h3>
-                  <div class="time">
+                  <div class="screen-large time">
                     April 2012 - October 2016
                   </div>
                 </div>
                 <div class="company">
                   <span class="name">Cupcakes Like it Sweet</span>, <span class="location">Bellingham, WA</span>
                 </div>
+                <div class="screen-small time">
+                  April 2012 - October 2016
+                </div>
               </div>
               <div class="details">
                 <p>
-                  Designed and developed the company's marketing website. Launched
-                  new designs and seasonal marketing campaigns. Produced a custom
-                  in-house punchcard management system.
+                  Designed and developed the company's marketing website.
+                  Launched new designs and seasonal marketing campaigns.
+                  Produced a custom in-house punchcard management system.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="section summary-section">
+            <h2 class="title">
+              <span class="icon-holder">
+                <i class="fas fa-tasks"></i>
+              </span>
+              <span class="label">Projects</span>
+            </h2>
+            <div class="project">
+              <div class="meta">
+                <h3 class="name">Twilight</h3>
+                <a class="homepage" href="https://github.com/twilight-rs">
+                  Project Homepage
+                </a>
+                <span class='print-only'>https://github.com/twilight-rs</span>
+              </div>
+              <div class="details">
+                <p>
+                  Leading development of Twilight, the powerful, flexible, and
+                  scalable ecosystem of Rust libraries for the Discord API.
+                  Twilight is used by some of the largest applications on the
+                  platform who require concise and fine-grained control of their
+                  applications while maintaining scalability and efficiency.
+                </p>
+              </div>
+            </div>
+            <div class="project">
+              <div class="meta">
+                <h3 class="name">HopDB</h3>
+                <a class="homepage" href="https://github.com/hopdb">
+                  Project Homepage
+                </a>
+                <span class='print-only'>https://github.com/hopdb</span>
+              </div>
+              <div class="details">
+                <p>
+                  HopDB is an experimental, work-in-progress memory-backed
+                  key-value cache with an efficient protocol and typed values. It
+                  aims to be able to be used either as a remote cache or a cache
+                  embedded in applications.
+                </p>
+              </div>
+            </div>
+            <div class="project">
+              <div class="meta">
+                <h3 class="name">Leaves 🍂</h3>
+                <a class="homepage" href="https://github.com/leaves-host">
+                  Project Homepage
+                </a>
+                <span class='print-only'>https://github.com/leaves-host</span>
+              </div>
+              <div class="details">
+                <p>
+                  Leaves 🍂 is a self-hostable authenticated file upload server
+                  in Rust. It's intended for the application, its configuration,
+                  and files to be moved across servers and backed up with ease.
                 </p>
               </div>
             </div>
